@@ -28,11 +28,11 @@ spring:
       name: admin
       password: a
   profiles: beta
-  cloud:
-    stream:
-      kafka:
-        binder:
-          brokers: 
+  #cloud:
+  #  stream:
+   ##   kafka:
+     #   binder:
+      #    brokers: 
   # 数据源
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
@@ -76,7 +76,7 @@ spring:
 
 #监控配置
 info:
-  app.name: MICROSERVICE-PICLIB
+  app.name: blog-restapi-artilce
   company.name: yc
   build.artifactId: $project.artifactId$
   build.modelVersion: $project.modelVersion$
